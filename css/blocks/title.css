@@ -1,0 +1,16 @@
+.title {
+   font-size: 49px;
+   color: #221f1f;
+   font-weight: bold;
+   padding-top: 20px;
+}
+
+.title__partners {
+   font-size: 18px;
+   line-height: 38px;
+   color: #262424;
+   font-family: Roboto;
+   font-weight: 700;
+   text-align: center;
+   width: 252px;
+}

@@ -1,0 +1,19 @@
+.top-news,
+.top-news__item {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.top-news__desk,
+.top-news__title {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 21px;
+    font-weight: 700;
+}
+
+.top-news__pic {
+margin-bottom: 15px;
+}

@@ -1,0 +1,102 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: stretch;
+  height: 77px;
+}
+
+.contacts__phone {
+  color: inherit;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.contacts__workhours {
+  color: #e1942a;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
+.contacts {
+  background: linear-gradient(to right);
+  background-size: 100%;
+  font-family: inherit;
+  line-height: 1.5em;
+  color: inherit;
+}
+
+dfn {
+  /* background: #5973b1;
+  border-bottom: dashed 1px #5973b1; */
+  padding: 0 0.4em;
+  cursor: pointer;
+  font-style: normal;
+  position: relative;
+
+}
+
+dfn::after {
+  content: attr(data-info);
+  display: inline;
+  position: absolute;
+  top: 22px;
+  left: -50px;
+  opacity: 0;
+  width: 140px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 0.5em 0.8em;
+  background: #fff;
+  color: black;
+  pointer-events: none;
+  transition: .5s;
+  text-align: center;
+}
+
+dfn::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  border: solid transparent 5px;
+  border-bottom-color: #fff;
+  transition: .2s;
+
+}
+
+dfn:hover {
+  z-index: 2;
+}
+
+/* Keeps the info boxes on top of other elements */
+dfn:hover::after,
+dfn:hover::before {
+  opacity: 1;
+  border-radius: 3px;
+  filter: drop-shadow(0px 5px 2.5px rgba(0,0,0,0.2));
+  background-image: linear-gradient(0deg, #ffffff 0%, #ffffff 100%);
+}
+
+dfn:hover::after {
+  top: 38px;
+}
+
+dfn:hover::before {
+  top: 28px;
+}

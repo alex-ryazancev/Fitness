@@ -1,0 +1,19 @@
+.copyright {
+    width: 256px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    line-height: 18px;
+    padding: 8px 8px;
+}
+
+.copyright__link {
+    color: inherit;
+    font-weight: 700;
+}
+
+.copyright__author {
+    font-weight: 700;  
+}

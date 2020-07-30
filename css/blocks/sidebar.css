@@ -1,0 +1,90 @@
+.sidebar {
+padding-top: 25px;
+}
+
+.menu__list {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.menu__item {
+  margin-bottom: 25px;
+}
+
+.menu__link {
+  text-decoration: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.menu__icon,
+.menu__title {
+  transition: 0.3s;
+}
+
+.menu__link:hover .menu__title,
+.menu__link.active .menu__title {
+  color: #e1942a;
+}
+
+.menu__link:hover .menu__icon_main,
+.menu__link.active .menu__icon_main {
+  background-image: url("/img/main/main_push.png");
+}
+
+.menu__link:hover .menu__icon_team,
+.menu__link.active .menu__icon_team {
+  background-image: url("/img/main/feed_push.png");
+}
+
+.menu__link:hover .menu__icon_reviews,
+.menu__link.active .menu__icon_reviews {
+  background-image: url("/img/main/service_push.png");
+}
+
+.menu__icon {
+  width: 20px;
+  height: 20px;
+  background-position: 0 center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.menu__icon_main {
+  background-image: url("/img/main/main.png");
+}
+
+.menu__icon_team {
+  background-image: url("/img/main/feed.png");
+}
+
+.menu__icon_reviews {
+  background-image: url("/img/main/service.png");
+}
+
+.menu__title {
+  font-family: inherit;
+  margin-left: 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #262424;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.menu--horizontal {
+  margin-bottom: 20px;
+}
+
+.menu--horizontal .menu__list {
+  display: flex;
+  align-items: center;
+}
+
+.menu--horizontal .menu__item {
+  margin-bottom: 0;
+  margin-right: 10%;
+}

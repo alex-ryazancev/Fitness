@@ -1,0 +1,121 @@
+.tariff {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-around;
+}
+
+.tariff__top {
+    text-align: center;
+    height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #262424;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.tariff__title {
+    color: #262424;
+    font-family: Roboto;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 38px;
+    padding-top: 8px;
+    width: 880px;
+}
+
+.tariff__choice {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-top: 30px;
+}
+
+.tariff__standard,
+.tariff__premium,
+.tariff__luxury {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 260px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border: 2px solid;
+    color: #e8e8ec
+}
+
+.tariff__picture {
+    display: block;
+    position: relative;
+    background: #5972b1;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+}
+
+.tariff__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tariff__name {
+    text-align: center;
+    height: 20px;
+    color: #262626;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2.88px;
+    padding-top: 18px;
+}
+
+.tariff__text {
+    text-align: center;
+    width: 185px;
+    color: #262424;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 50px;
+}
+
+.tarif__service {}
+
+.tariff__comfort {
+    color: #262424;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+
+}
+
+.tariff__comfort::before {
+    content: "●";
+    font-size: 10px;
+    padding-right: 15px;
+}
+
+.tariff__price-item {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 54px;
+    font-weight: 400;
+    padding-top: 12px;
+}
+
+.tariff__price-item::before {
+    content: "$";
+    font-size: 34px;
+    vertical-align: 3px;
+}

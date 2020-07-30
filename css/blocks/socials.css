@@ -1,0 +1,47 @@
+.socials__link {
+    top: 50%;
+    left: 25%;
+    display: block;
+    position: relative;
+    background: #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.socials__link:hover {
+    background: #e1942a;
+}
+
+.socials__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.socials__item {
+    padding-top: 8px;
+    padding-right: 9px;
+}
+
+.socials__title {
+    font-family: Roboto;
+    color: color: #2d2222;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 18px;
+}
+
+.socials__list {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}

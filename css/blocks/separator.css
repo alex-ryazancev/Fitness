@@ -1,0 +1,37 @@
+.separator {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-around;
+    background: url("/img/reviews/pattern.png") center center #1a1b1c;
+    font-size: 18px;
+    color: #ffffff;
+    position: relative;
+    width: 274px;
+}
+
+.separator__bold {
+    color: #e1942a;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.separator__content {
+    padding: 10px;
+    line-height: 30px;
+    font-family: Roboto;
+    font-weight: 300;
+    text-align: center;
+}
+
+.column-seporator {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.separator-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+}

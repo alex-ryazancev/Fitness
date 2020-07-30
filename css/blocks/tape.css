@@ -1,0 +1,45 @@
+.tape {
+    background: #76b46f;
+}
+
+.tape__title {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tape__phone {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.tape__text {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    position: absolute;
+    width: 621px;
+}
+
+.ramka {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.ramka__name {
+    width: 700px;
+    height: 427px;
+    background-color: #f4f4f4;
+
+}
