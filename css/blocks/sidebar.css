@@ -32,17 +32,17 @@ padding-top: 25px;
 
 .menu__link:hover .menu__icon_main,
 .menu__link.active .menu__icon_main {
-  background-image: url("/img/main/main_push.png");
+  background-image: url("../img/main/main_push.png");
 }
 
 .menu__link:hover .menu__icon_team,
 .menu__link.active .menu__icon_team {
-  background-image: url("/img/main/feed_push.png");
+  background-image: url("../img/main/feed_push.png");
 }
 
 .menu__link:hover .menu__icon_reviews,
 .menu__link.active .menu__icon_reviews {
-  background-image: url("/img/main/service_push.png");
+  background-image: url("../img/main/service_push.png");
 }
 
 .menu__icon {
@@ -54,15 +54,15 @@ padding-top: 25px;
 }
 
 .menu__icon_main {
-  background-image: url("/img/main/main.png");
+  background-image: url("../img/main/main.png");
 }
 
 .menu__icon_team {
-  background-image: url("/img/main/feed.png");
+  background-image: url("../img/main/feed.png");
 }
 
 .menu__icon_reviews {
-  background-image: url("/img/main/service.png");
+  background-image: url("../img/main/service.png");
 }
 
 .menu__title {
